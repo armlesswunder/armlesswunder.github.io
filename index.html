@@ -1,42 +1,31 @@
 <!DOCTYPE html>
-<style>
-    body {
-      background-color: darkblue;
-    }
-    
-    h1 {
-      color: rgb(210, 229, 238);
-      text-align: center;
-        font-family: "Lucida Console", "Courier New", monospace;
-      font-size: calc(25px + 5vw);
-    }
-    
-    p {
-      color: lightblue;
-      text-align: center;
-      font-size: calc(20px + 3vw);
-        font-family: "Lucida Console", "Courier New", monospace;
-    }
-    
-    a {
-      color: lightblue;
-      text-align: center;
-      font-size: calc(20px + 3vw);
-        font-family: "Lucida Console", "Courier New", monospace;
-    }
-</style>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
 
 <html>
 <body>
 
-<h1>ArmlessWunder's creations</h1>
+<h1>ArmlessWunder</h1>
 
-<p><a href="https://www.nexusmods.com/users/13056450?tab=user+files">My mods for Bethesda Games</a></p>
+<button class="accordion">My Mods</button>
+<div class="panel">
+  <p><a href="https://www.nexusmods.com/users/13056450?tab=user+files">Nexus</a></p>
+</div>
 
-<p><a href="https://play.google.com/store/apps/developer?id=Adam+Blake+Wilson&hl=en_US&gl=US">My Animal Crossing Apps for Android</a></p>
+<button class="accordion">My Apps</button>
+<div class="panel">
+  <p><a href="https://play.google.com/store/apps/developer?id=Adam+Blake+Wilson&hl=en_US&gl=US">Play Store</a></p>
+</div>
 
-<p><a href="https://gofund.me/c66acf6b">Donate</a></p>
+<button class="accordion">My Clips</button>
+<div class="panel">
+  <p><a href="https://www.youtube.com/channel/UCH2JRkYgS8mUU-WL1Zankqg">Youtube</a></p>
+</div>
+
+<h3><a href="https://gofund.me/c66acf6b">Donate</a></h3>
 
 </body>
 </html>
 
+<script src="script.js"></script>
