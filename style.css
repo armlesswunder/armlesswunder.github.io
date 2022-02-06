@@ -12,6 +12,21 @@ h1 {
     font-size: calc(25px + 3vw);
 }
 
+.grid-container {
+  display: grid;
+  grid-column-gap: 8px;
+  grid-template-columns: 20pc auto;
+  background-color: darkblue;
+  padding: 8px;
+}
+
+.grid-item {
+  color: lightblue;
+  border: 1px solid lightblue;
+  padding: 8px;
+  font-size: calc(12px + 1vw);
+}
+
 p {
     color: lightblue;
     margin-left: 25px;
