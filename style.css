@@ -9,7 +9,7 @@ body {
 h1 {
     color: rgb(210, 229, 238);
     text-align: center;
-    font-size: calc(25px + 3vw);
+    font-size: calc(15px + 2vw);
 }
 
 .grid-container {
@@ -35,12 +35,21 @@ p {
 h3 {
     color: lightblue;
     text-align: center;
+    font-size: calc(12px + 1vw);
 }
 
 a {
     color: lightblue;
-    font-size: calc(15px + 2vw);
+    font-size: calc(12px + 1vw);
     margin-left: 0px;
+    text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .accordion {
@@ -52,7 +61,7 @@ a {
     border: none;
     text-align: left;
     outline: none;
-    font-size: calc(18px + 2vw);
+    font-size: calc(15px + 2vw);
     transition: 0.4s;
   }
   
