@@ -13,10 +13,10 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 
-function camelCaseChanged(val) {
+function camelCaseChanged() {
     let x = 0;
     let val2 = '';
-    for (const char of val) {
+    for (const char of document.getElementById("camelCaseInput").value) {
         if (x % 2 === 0) {
             val2 += char.toLowerCase();
         } else {
