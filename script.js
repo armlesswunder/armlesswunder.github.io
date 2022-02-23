@@ -26,5 +26,5 @@ function camelCaseChanged(val) {
         }
         x += 1;
     }
-    camelCaseOutput.textContent = val2;
+    alert(val2);
 }
