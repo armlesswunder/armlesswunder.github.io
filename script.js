@@ -1,6 +1,4 @@
 var acc = document.getElementsByClassName("accordion");
-var camelCaseInput = document.getElementsByClassName("camelCaseInput");
-var camelCaseOutput = document.getElementsByClassName("camelCaseOutput");
 var i;
   
 for (i = 0; i < acc.length; i++) {
@@ -26,5 +24,5 @@ function camelCaseChanged(val) {
         }
         x += 1;
     }
-    alert(val2);
+    document.getElementById("camelCaseOutput").textContent = val2;
 }
