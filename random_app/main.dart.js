@@ -107770,7 +107770,7 @@ $0(){},
 $S:0}
 A.lL.prototype={
 PF(){var s=t.N
-return A.aM(["Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","GET, POST","Access-Control-Allow-Headers","X-Requested-With"],s,s)},
+return A.aM(["Content-Type","text/plain","Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","GET, POST, PUT, DELETE, OPTIONS","Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept"],s,s)},
 pw(a,b){return this.a4v(0,b)},
 a4v(a,b){var s=0,r=A.G(t.N),q,p=this,o
 var $async$pw=A.H(function(c,d){if(c===1)return A.D(d,r)
