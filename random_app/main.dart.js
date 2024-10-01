@@ -107770,12 +107770,12 @@ $0(){},
 $S:0}
 A.lL.prototype={
 PF(){var s=t.N
-return A.aM(["Content-Type","text/plain","Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","GET, POST, PUT, DELETE, OPTIONS","Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept"],s,s)},
+return A.aM(["Content-Type","text/plain","Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","GET, POST, PUT, DELETE, OPTIONS","Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept, Content-Length"],s,s)},
 pw(a,b){return this.a4v(0,b)},
 a4v(a,b){var s=0,r=A.G(t.N),q,p=this,o
 var $async$pw=A.H(function(c,d){if(c===1)return A.D(d,r)
 while(true)switch(s){case 0:s=3
-return A.B(A.aVC(A.i8("http://localhost:8001/"+b,0,null),p.PF()),$async$pw)
+return A.B(A.aVC(A.i8("http://127.0.0.1:8001/"+b,0,null),p.PF()),$async$pw)
 case 3:o=d
 q=B.c.cV(A.aVp(A.aU3(o.e).c.a.h(0,"charset")).eI(0,o.w))
 s=1
@@ -107786,7 +107786,7 @@ r7(a,b,c){return this.aBc(0,b,c)},
 aBc(a,b,c){var s=0,r=A.G(t.N),q,p=this,o
 var $async$r7=A.H(function(d,e){if(d===1)return A.D(e,r)
 while(true)switch(s){case 0:s=3
-return A.B(A.bfs(A.i8("http://localhost:8001/"+b,0,null),B.c.cV(c),p.PF()),$async$r7)
+return A.B(A.bfs(A.i8("http://127.0.0.1:8001/"+b,0,null),B.c.cV(c),p.PF()),$async$r7)
 case 3:o=e
 q=B.c.cV(A.aVp(A.aU3(o.e).c.a.h(0,"charset")).eI(0,o.w))
 s=1
