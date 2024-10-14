@@ -1,0 +1,25 @@
+{
+    "applinks": {
+      "apps": [],
+      "details": [
+        {
+          "appIDs": [
+            "J344435S2K.com.example.urltest.urlTest"
+          ],
+          "paths": [
+            "*", "/"
+          ],
+          "components": [
+            {
+              "/": "/*"
+            }
+          ]
+        }
+      ]
+    },
+    "webcredentials": {
+      "apps": [
+        "J344435S2K.com.example.urltest.urlTest"
+      ]
+    }
+  }
