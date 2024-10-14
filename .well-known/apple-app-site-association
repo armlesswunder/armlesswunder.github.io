@@ -7,7 +7,7 @@
             "J344435S2K.com.example.urltest.urlTest"
           ],
           "paths": [
-            "*"
+            "*", "/"
           ],
           "components": [
             {
